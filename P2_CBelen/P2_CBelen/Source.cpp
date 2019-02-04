@@ -90,7 +90,7 @@ CANTG:
 		G[i].crear_grupo(i);
 	}
 	//Enoctest
-
+	cout << "hola" << endl;
 
 
 
