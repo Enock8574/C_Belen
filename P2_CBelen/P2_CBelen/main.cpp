@@ -3,18 +3,19 @@
 #include <string>
 #include <sstream>
 // test again
+// test again again
 using namespace std;
 const int MAX_EST = 10;
 void test_num(string pregunta, int *resp) // funcion para verificar que el numero introducido sea entero
 {
 	string input;	// almacena en una cadena lo que el usuario introduce
-	int stringsize;	// variable para almacenar el tamaño de la cadena
+	int stringsize;	// variable para almacenar el tamaÃ±o de la cadena
 	bool check;	// si es true la cadena solo tiene valores numericos, si es false la cadena tiene valores no validos
 	for (;;)	// el ciclo es infinito hasta que el usuario introduzca valores validos
 	{
 		cout << pregunta;
 		getline(cin, input);	// lee lo que usuario introduce y lo guarda como una cadena de caracteres
-		stringsize = input.length();	// guarda el tamaño de la cadena que el usuario introduce
+		stringsize = input.length();	// guarda el tamaÃ±o de la cadena que el usuario introduce
 		for (int i = 0; i < stringsize; i++)	// revisa las letras de la cadena de una en una verificando que sean numeros
 		{
 			if (input[i] == '1' || input[i] == '2' || input[i] == '3' || input[i] == '4' || input[i] == '5' || input[i] == '6' || input[i] == '7' || input[i] == '8' || input[i] == '9' || input[i] == '0')
