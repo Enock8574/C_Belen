@@ -86,6 +86,7 @@ CANTG:
 		cout << "\t\tINTRODUCIENDO DATOS\n";
 		G[i].crear_grupo(i);
 	}
+	//Enoctest
 	cout << "\n\t";
 	system("pause");
 }
